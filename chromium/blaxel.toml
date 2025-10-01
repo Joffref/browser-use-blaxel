@@ -1,0 +1,6 @@
+type = "sandbox"
+name = "chromium-headless"
+
+[runtime]
+generation = "mk3"
+memory = 4096

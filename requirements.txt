@@ -1,0 +1,22 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+
+# Browser automation
+browser-use
+
+# Google LLM integration
+google-generativeai
+
+# WebSocket support
+websockets
+
+# HTTP client for async requests
+httpx
+
+# Additional utilities
+python-multipart
+typing-extensions
+blaxel[core,telemetry]
