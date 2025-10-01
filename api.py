@@ -29,7 +29,7 @@ async def lifespan(app: FastAPI):
         "name": f"browser-use-sandbox",
         "memory": 4096,
         "image": "sandbox/chromium-headless:latest",
-        "region": "us-was-1",
+        "region": "us-pdx-1",
     })
     preview = await sandbox.previews.create_if_not_exists({
         "metadata": {"name": "app-preview"},
